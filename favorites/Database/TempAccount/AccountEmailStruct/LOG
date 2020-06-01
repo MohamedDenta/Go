@@ -1,0 +1,32 @@
+=============== Feb 26, 2020 (EET) ===============
+14:02:41.070162 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:02:41.217040 db@open opening
+14:02:41.222822 version@stat F·[] S·0B[] Sc·[]
+14:02:41.320894 db@janitor F·2 G·0
+14:02:41.321049 db@open done T·103.958023ms
+14:02:41.321306 db@close closing
+14:02:41.321501 db@close done T·188.009µs
+=============== Feb 26, 2020 (EET) ===============
+14:02:43.079985 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:02:43.080215 version@stat F·[] S·0B[] Sc·[]
+14:02:43.080265 db@open opening
+14:02:43.080358 journal@recovery F·1
+14:02:43.083013 journal@recovery recovering @1
+14:02:43.160758 memdb@flush created L0@2 N·1 S·173B "hat..com,v1":"hat..com,v1"
+14:02:43.164048 version@stat F·[1] S·173B[173B] Sc·[0.25]
+14:02:43.415750 db@janitor F·3 G·0
+14:02:43.415818 db@open done T·335.533745ms
+14:02:43.416067 db@close closing
+14:02:43.416310 db@close done T·232.689µs
+=============== Feb 26, 2020 (EET) ===============
+14:02:44.849015 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:02:44.849196 version@stat F·[1] S·173B[173B] Sc·[0.25]
+14:02:44.849244 db@open opening
+14:02:44.849328 journal@recovery F·1
+14:02:44.849529 journal@recovery recovering @3
+14:02:44.933959 memdb@flush created L0@5 N·1 S·180B "hat..com,v3":"hat..com,v3"
+14:02:44.934564 version@stat F·[2] S·353B[353B] Sc·[0.50]
+14:02:45.125104 db@janitor F·4 G·0
+14:02:45.125141 db@open done T·275.881019ms
+14:02:45.125235 db@close closing
+14:02:45.125369 db@close done T·130.196µs

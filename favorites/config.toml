@@ -1,0 +1,43 @@
+
+[globaldata]
+  deleteaccountlooptimeinseacond = 30
+  deleteaccounttimeinseacond = 3000.0
+  digitalwalletipnotfication = "http://localhost:1000/notify"
+  downloadfileip = "http://localhost:8090"
+  electiontimeinseconds = 20
+  inocointodollarratio = 0.5
+  maxconfirmcode = 6
+  nooftransactionsperblock = 5
+  rsakeybitsize = 1024
+  servicecreatevoutcher = "https://111.68.98.137:8443/api/s/default/cmd/hotspot"
+  servicelogin = "https://111.68.98.137:8443/api/login"
+  servicestatus = "https://111.68.98.137:8443/api/s/default/stat/voucher"
+  stringfixedlength = 30
+  tokenidstringfixedlength = 13
+  transactionfee = 0.25
+  transactionrefundfee = 0.03
+  transactionstakecoins = 12.0
+  txvalidationtimeinseconds = 3000
+  validatorfees = 0.0
+
+[server]
+  digitalwalletip = "http://197.51.66.21"
+  digitalwalletport = "80"
+  firstminer = true
+  initialminercoins = 80000000.0
+  initialstakecoin = 50.0
+  ip = "localhost"
+  ips = [""]
+  password = "2365112dd3ac9ae2275b8bcb50963f9a56159156b7473fc869cc912250725025"
+  password2 = "2365112dd3ac9ae2275b8bcb50963f9a56159156b7473fc869cc912250725025"
+  port = "8090"
+  privip = "localhost"
+  publickey = ""
+  soketport = "8091"
+  username = "inovatian"
+  username2 = "service2"
+
+[updatestruct]
+  currentversion = 1.0
+  updateurl = ""
+  updateversion = 1.0

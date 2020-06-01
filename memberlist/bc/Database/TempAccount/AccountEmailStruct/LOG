@@ -1,0 +1,44 @@
+=============== Mar 2, 2020 (EET) ===============
+13:58:31.048583 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:58:31.181589 db@open opening
+13:58:31.182200 version@stat F·[] S·0B[] Sc·[]
+13:58:31.313577 db@janitor F·2 G·0
+13:58:31.313687 db@open done T·132.061155ms
+13:58:31.313883 db@close closing
+13:58:31.314027 db@close done T·138.171µs
+=============== Mar 2, 2020 (EET) ===============
+13:58:33.007539 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:58:33.007784 version@stat F·[] S·0B[] Sc·[]
+13:58:33.007815 db@open opening
+13:58:33.007916 journal@recovery F·1
+13:58:33.010221 journal@recovery recovering @1
+13:58:33.105528 memdb@flush created L0@2 N·1 S·173B "hat..com,v1":"hat..com,v1"
+13:58:33.106245 version@stat F·[1] S·173B[173B] Sc·[0.25]
+13:58:33.307211 db@janitor F·3 G·0
+13:58:33.307444 db@open done T·299.607727ms
+13:58:33.307781 db@close closing
+13:58:33.307950 db@close done T·164.174µs
+=============== Mar 2, 2020 (EET) ===============
+13:58:35.021360 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:58:35.021654 version@stat F·[1] S·173B[173B] Sc·[0.25]
+13:58:35.021715 db@open opening
+13:58:35.021853 journal@recovery F·1
+13:58:35.022099 journal@recovery recovering @3
+13:58:35.077847 memdb@flush created L0@5 N·1 S·180B "hat..com,v3":"hat..com,v3"
+13:58:35.079007 version@stat F·[2] S·353B[353B] Sc·[0.50]
+13:58:35.279105 db@janitor F·4 G·0
+13:58:35.279180 db@open done T·257.443076ms
+13:58:35.279471 db@close closing
+13:58:35.279637 db@close done T·160.862µs
+=============== Mar 2, 2020 (EET) ===============
+13:58:36.554037 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:58:36.554332 version@stat F·[2] S·353B[353B] Sc·[0.50]
+13:58:36.554386 db@open opening
+13:58:36.554497 journal@recovery F·1
+13:58:36.555144 journal@recovery recovering @6
+13:58:36.632865 memdb@flush created L0@8 N·1 S·182B "hat..com,v5":"hat..com,v5"
+13:58:36.637713 version@stat F·[3] S·535B[535B] Sc·[0.75]
+13:58:36.879722 db@janitor F·5 G·0
+13:58:36.879773 db@open done T·325.36615ms
+13:58:36.879930 db@close closing
+13:58:36.880028 db@close done T·95.49µs

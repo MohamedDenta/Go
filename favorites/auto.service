@@ -1,0 +1,17 @@
+[unit]
+Description=Autoupdate miner system
+After=network.target
+StartLimitIntervalSec=0
+
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+DynamiUser=yes
+ExecStartPost="/home/donquixote/Desktop/work/GoProjects/src/gitlab.com/Ahmed_Ramadan/inno-blockchain/version 1020"
+ExecStart=/home/donquixote/Desktop/work/GoProjects/src/gitlab.com/Ahmed_Ramadan/inno-blockchain/newTest
+
+
+[Install]
+WantedBy=multi-user.target
